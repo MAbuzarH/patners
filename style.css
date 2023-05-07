@@ -1,0 +1,243 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+.main{
+    max-width: 100vw;
+    
+}
+li:hover{
+    border-bottom: 2px solid #fe7336;
+}
+
+p{
+    font-family: "Myriad Pro";
+    font-size: 0.8rem;
+}  
+h1{
+    font-weight: bold;
+}
+.about-top{
+    
+    background-color: #ffffff;
+    position: absolute;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    top: 99%;
+    left: 11%;
+    z-index: 1;
+  
+}
+.images{
+/* padding-top: 17%; */
+/* width: 30%; */
+max-height: fit-content;
+}
+.image-2{
+   max-height: fit-content;
+ max-width: fit-content;
+    top:-22%;
+    width: 78%;
+}
+.about{
+  padding-top:3% ;
+}
+.about-content{
+padding-top: 31%;
+}
+.about-content-img{
+    justify-content: center;  
+}
+.sirves{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* gap: 4px; */
+    height: 30rem;
+    
+}
+
+.card-box{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* height: 13rem; */
+    margin: px;
+    padding-top: 10rem;
+}
+.dot{
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 7px;
+
+}
+.dot-active{
+    background-color: #fe7336;
+}
+.sucess{
+    background-color: #000000;
+    /* height: 20rem; */
+
+}
+.sucess-card{
+    margin: 20px;
+}
+.sucess h1{
+    font-size: 3.5rem;
+   font-weight: bolder;
+   color: #fe7336;
+}
+.sucess i{
+    color: #fe7336;
+}
+.sucess p{
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+.sucess-card-bulb i{
+ 
+    padding-right: 30px;
+}
+.sucess h4{
+    color: #ffffff;
+    font-size: 1.2rem;  
+}
+.sucess-top-text{
+padding: 6rem 0 2.9rem 0;
+}
+.testemony p{
+    font-size: 1.5rem;
+}
+.testemony{
+background-color: #ffffff;
+}
+.tetimony-card-text i{
+font-size: 2.5rem;
+color: #fe7336;
+width: 40%;
+/* clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); */
+}
+.tetimony-card{
+    width: 40%;
+}
+.profile{
+    border: 1px solid #ffff;
+    border-radius: 50%;
+    padding: 30px;
+    background-color: #000000;
+}
+.card-box-news{
+    border-bottom: 1px solid #fe7336;
+}
+.card-box-news i{
+    color: #fe7336;
+}
+.pages{
+    background-color: #fe7336;
+    color: #ffffff;
+    min-height: 20rem;
+    max-width: 100vw;
+}
+.pages p {
+    margin-bottom: 0;
+}
+.pages i{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.link-p{
+    background-color: #212121;
+    color: #ffffff;
+    padding: 7rem 0 ;
+}
+/* .links{
+
+} */
+.links span{
+    border-bottom: 1px solid #fe7336;
+}
+.footer p{
+    font-size: 10px;
+    padding: 1rem;
+}
+@media screen and (max-width: 1024px){
+    .about{
+       
+        padding-top: 15%;
+    }
+    .content{
+        padding: 10% 0;
+    }
+}
+@media screen and (max-width: 768px){
+    .about-top{
+        /* top: 80%; */
+        position: static;
+
+    }
+    .image-2{
+        width: fit-content;
+    }
+    .about{
+        align-items: center;
+        justify-content: center;
+        padding-top: 5%;
+    }
+    .about-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:4px;
+        padding-top: 20%;
+    }
+    .about-content-img{
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+       padding-bottom: 3%;
+       padding-top: 4%;
+    }
+
+   
+}
+@media screen and (max-width: 576px){
+    .card-box{
+        /* padding-top: 10px; */
+    } 
+    .sirves{
+        height: fit-content;
+    }
+    .dot{
+        padding: 5px;
+    }
+    .sirves-card-p{
+        max-width: fit-content;
+
+     }
+    .card-box{
+        margin-top : 10px;
+    }
+    .first-nav p{
+        font-size: 12px;
+       
+    }
+    .first-nav{
+        justify-content: center;
+        align-items: center;
+    }
+    .image-2{
+        width: 95%;
+        top: -35px;
+    }
+   
+}
+  
